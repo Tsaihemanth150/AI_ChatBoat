@@ -7,7 +7,7 @@ import os
 import google.generativeai as genai
 
 
-genai.configure(api_key="AIzaSyByUjYci4Xv7d5AE6hSO4FCaaWmAqABYWs")
+genai.configure(api_key="API_KEY")
 
 ## function to load Gemini Pro model and get repsonses
 model = genai.GenerativeModel("gemini-1.5-flash")
